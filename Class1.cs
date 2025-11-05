@@ -14,5 +14,4 @@ public class MATEMÁTICAS
     return MCD(b, a % b);
 }
     }
-}
-}
+
