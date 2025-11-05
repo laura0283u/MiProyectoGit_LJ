@@ -8,6 +8,11 @@ public class MATEMÁTICAS
             if (n <= 1) return n;
             return Fibonacci(n - 1) + Fibonacci(n - 2);
         }
+        public static int MCD(int a, int b)
+{
+    if (b == 0) return a;
+    return MCD(b, a % b);
+}
     }
 }
 }
