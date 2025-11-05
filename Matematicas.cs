@@ -8,4 +8,13 @@ namespace MiProyectoGit_LJ
     for (int i = 1; i <= n; i++) suma += i;
     return suma;
 }
+  public static int Factorial(int n)
+{
+    int resultado = 1;
+    for (int i = 1; i <= n; i++)
+    {
+        resultado *= i;
+    }
+    return resultado;
+}
 }
